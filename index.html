@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tous les Jours Study Break Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-label="Tous les Jours landing page hero">
+        <img class="hero-photo" src="./bakery-hero.png" alt="Pastries, cakes, iced coffee, and matcha on a cozy bakery counter" />
+        <div class="hero-scrim"></div>
+        <nav class="topbar" aria-label="Primary">
+          <span class="brand">Tous les Jours</span>
+          <div class="nav-actions">
+            <a href="#menu">Menu</a>
+            <a href="#find">Find a Bakery</a>
+          </div>
+        </nav>
+        <div class="hero-copy">
+          <p class="eyebrow">Fresh pastries for campus mornings and workday breaks</p>
+          <h1>Make your next study break taste fresh-baked.</h1>
+          <p class="subhead">French-Korean bakery favorites, iced coffee, matcha, and celebration cakes ready for pickup near you.</p>
+          <div class="cta-row">
+            <a class="primary-cta" href="#order">Order Fresh Pastries Now</a>
+            <span class="rating">4.8 stars from local pastry fans</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-strip" aria-label="Promotional offer">
+        <div>
+          <p class="section-kicker">This week only</p>
+          <h2>Student Study Break Combo</h2>
+          <p>Buy any pastry + drink and get 20% off. Perfect for coffee runs, group projects, and after-class treats.</p>
+        </div>
+        <a class="secondary-cta" href="#order">Claim 20% Off</a>
+      </section>
+
+      <section class="content-grid" id="menu">
+        <div class="menu-block">
+          <p class="section-kicker">Menu highlights</p>
+          <h2>Pick a fresh favorite fast.</h2>
+          <div class="menu-list">
+            <span>Croissants</span>
+            <span>Milk bread</span>
+            <span>Strawberry cakes</span>
+            <span>Iced coffee</span>
+            <span>Matcha drinks</span>
+            <span>Seasonal pastries</span>
+          </div>
+        </div>
+        <div class="proof-block" aria-label="Customer reviews">
+          <p class="stars">★★★★★</p>
+          <blockquote>"The easiest campus coffee stop. The matcha and cream pastries feel like a mini reset."</blockquote>
+          <p class="reviewer">@studybreaksarah</p>
+        </div>
+      </section>
+
+      <section class="find-row" id="find">
+        <div>
+          <p class="section-kicker">Nearby bakery pickup</p>
+          <h2>Find a bakery near you.</h2>
+        </div>
+        <form class="zip-form" id="order">
+          <label for="zip">ZIP code</label>
+          <input id="zip" name="zip" type="text" inputmode="numeric" placeholder="Enter ZIP" />
+          <button type="submit">Find Stores</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
